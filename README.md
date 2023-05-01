@@ -24,3 +24,6 @@ HostName 10.129.0.25
 ProxyCommand ssh bastion -W %h:%p
 User appuser
 IdentityFile ~/.ssh/app_user.pub
+
+bastion_IP = 84.201.165.36
+someinternalhost_IP = 10.129.0.25
